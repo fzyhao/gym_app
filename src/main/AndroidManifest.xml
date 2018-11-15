@@ -9,14 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.fzy.myapplication11.MainActivity">
+        <activity android:name="com.example.fzy.myapplication11.log_in">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.fzy.myapplication11.MainActivity2"></activity>
+        <activity android:name="com.example.fzy.myapplication11.register"></activity>
         <activity android:name="com.example.fzy.myapplication11.MainActivity3"></activity>
         <activity android:name="com.example.fzy.myapplication11.MainActivity4"></activity>
         <activity android:name="com.example.fzy.myapplication11.MainActivity5"></activity>

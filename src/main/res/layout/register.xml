@@ -61,16 +61,14 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="115dp"
-        android:ems="10"
-        android:inputType="numberPassword"
+        android:layout_marginRight="38dp"
         android:digits="0123456789"
+        android:ems="10"
         android:hint="请输入学号"
+        android:inputType="numberPassword"
         app:layout_constraintBottom_toBottomOf="@id/textView4"
         app:layout_constraintLeft_toRightOf="@id/textView4"
-        app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginRight="40dp"
-        tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="83dp" />
+        app:layout_constraintRight_toRightOf="parent" />
 
     <EditText
         android:id="@+id/editText2"
